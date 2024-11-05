@@ -1,11 +1,12 @@
-import Chat from './components/Chat'
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold mb-8 text-center">Next.js Chatbot</h1>
-      </div>
-    </main>
-  )
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        CHAT BOT
+      </main>
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        Working...
+      </footer>
+    </div>
+  );
 }
